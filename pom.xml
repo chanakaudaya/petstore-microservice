@@ -1,0 +1,32 @@
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.wso2</groupId>
+        <artifactId>wso2</artifactId>
+        <version>5</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>org.example.msf4j</groupId>
+    <artifactId>petstore-example-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+
+    <modules>
+        <module>step01/petstore</module>
+        <module>step02/petstore</module>
+        <module>step03/petstore</module>
+        <module>step04/petstore</module>
+        <module>step05/petstore</module>
+        <module>step06/petstore</module>
+        <module>step07/petstore</module>
+        <module>step08/petstore</module>
+        <module>step09/petstore</module>
+    </modules>
+
+</project>
